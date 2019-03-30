@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<div class="box">
+		<div class="b1" style="width:100%; float:left; position:relative; background:lightblue; padding:0 0 10px 15px;">
+			<h2>одні питання</h2>
+			<input type="radio" name="choose1" id="one" class="one"><label for="one">відповідь з одним балом</label><br>
+			<input type="radio" name="choose1" class="two"><label for="two">відповідь з двома баломи</label><br>
+			<input type="radio" name="choose1" class="three"><label for="three">відповідь з трьома баломи</label>
+		</div>
+		<div class="b2" style="width:100%; float:left; position:relative; background:lightgreen; padding:0 0 10px 15px;">
+			<h2>інші питання</h2>
+			<input type="radio" name="choose2" id="one" class="one"><label for="one">відповідь з одним балом</label><br>
+			<input type="radio" name="choose2" class="two"><label for="two">відповідь з двома баломи</label><br>
+			<input type="radio" name="choose2" class="three"><label for="three">відповідь з трьома баломи</label>
+		</div>
+		<div class="b3" style="width:100%; float:left; position:relative; background:lightgray; padding:0 0 10px 15px;">
+			<h2>ще інші питання</h2>
+			<input type="radio" name="choose3" id="one" class="one"><label for="one">відповідь з одним балом</label><br>
+			<input type="radio" name="choose3" class="two"><label for="two">відповідь з двома баломи</label><br>
+			<input type="radio" name="choose3" class="three"><label for="three">відповідь з трьома баломи</label>
+		</div>
+		<button onclick="fire()" class="fire">підрахувати</button>
+		<div id="txt" style="width:20%; height:25px; background:pink;">
+			<h4>блок з сумованими балами</h4>
+		</div>
+	</div>
+</body>
+<script src="script2.js"></script>
+</html>
